@@ -1,0 +1,6 @@
+<h1> Let's add a shock </h1>
+<%= simple_form_for @shock, url: [:shocks] do |f| %>
+  <%= f.input :comment %>
+  <br />
+  <%= f.submit 'Add' %>
+<% end %>
